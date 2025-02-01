@@ -14,6 +14,7 @@ FROM
 
 
 -- Q2 How has Singapore been performing in terms of energy consumption?
+
 SELECT country, CAST(year AS UNSIGNED) AS year, CAST(energy_per_gdp AS FLOAT)AS energy_per_gdp, CAST(biofuel_consumption AS FLOAT)*1000000000/CAST(gdp AS FLOAT) AS biofuel_per_gdp, CAST(nuclear_consumption AS FLOAT)*1000000000/CAST(gdp AS FLOAT) AS nuclear_per_gdp,
 CAST(coal_consumption AS FLOAT)*1000000000/CAST(gdp AS FLOAT) AS coal_per_gdp, CAST(gas_consumption AS FLOAT)*1000000000/CAST(gdp AS FLOAT) AS gas_per_gdp, CAST(oil_consumption AS FLOAT)*1000000000/CAST(gdp AS FLOAT) AS oil_per_gdp,
 CAST(solar_consumption AS FLOAT)*1000000000/CAST(gdp AS FLOAT) AS solar_per_gdp, CAST(wind_consumption AS FLOAT)*1000000000/CAST(gdp AS FLOAT) AS wind_per_gdp, CAST(hydro_consumption AS FLOAT)*1000000000/CAST(gdp AS FLOAT) AS hydro_per_gdp,
