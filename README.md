@@ -17,7 +17,7 @@ We utilised 2 sources of data:
 ## Approach
 There is a positive correlation between economic growth (measured by GDP) and the energy demands of an economy (Faisal, 2017). Hence, to ensure a fair comparison of Singapore's performance in terms of energy consumption, we selected countries with an average GDP that does not vary more than 10% from the average GDP of Singapore between 2008 - 2018. Based on the 10% threshold, we obtained the following 6 comparable references:
 
-<img src="Comparable_References_GDP.png" width="300"/>
+<img src="Images/Comparable_References_GDP.png" width="300"/>
 
 <br><br>
 
@@ -26,22 +26,22 @@ Using MySQL, we queried the data to address the questions outlined above, as dem
 The results were then transformed into visualisations in Excel, as shown below.
 
 ## Results
-<img src="Total_Energy_Consumption.png" width="500"/>
+<img src="Images/Total_Energy_Consumption.png" width="500"/>
 Singapore’s total energy consumption per GDP was consistently the highest among the countries analysed, which may indicate inefficiencies in energy usage. However, a more detailed breakdown by energy source is necessary before drawing any conclusions.
 
 <br><br>
 
-<img src="Fossil_Fuel_Consumption.png" width="500"/>
+<img src="Images/Fossil_Fuel_Consumption.png" width="500"/>
 Fossil fuel consumption includes coal, oil, and gas. Despite a slight decline over the years, Singapore's fossil fuel consumption per GDP remains the highest among the countries analyzed. This is concerning, as fossil fuels are non-renewable, making long-term reliance unsustainable. Moreover, Singapore's dependence on imported fossil fuels exposes it to supply chain disruptions and price volatility, such as the surge in oil prices during the Russia-Ukraine war. Additionally, fossil fuels contribute to over 75% of global greenhouse gas emissions, significantly driving global warming (UN, n.d.).
 
 <br><br>
 
-<img src="Solar_Energy_Consumption.png" width="500"/>
+<img src="Images/Solar_Energy_Consumption.png" width="500"/>
 Singapore has seen a growing adoption of solar energy in recent years. However, there remains significant potential for further expansion, as Singapore still has the second-lowest solar energy consumption among the nations analysed. With an average solar irradiance of 1,580 kWh/m² per year (EMA, 2021), Singapore is well-positioned to harness more solar power. Additionally, solar energy is less land-intensive than other energy sources, as solar panels can be installed on rooftops and even on buses, maximizing space efficiency.
 
 <br><br>
 
-<img src="Biofuel_Energy_Consumption.png" width="500"/>
+<img src="Images/Biofuel_Energy_Consumption.png" width="500"/>
 Singapore currently does not utilize biofuels, a form of energy derived from organic matter within a short time frame, such as ethanol and biodiesel. There is potential for Singapore to explore biofuels as an alternative energy source by replacing some of its existing fossil fuel plants with biofuel facilities that convert waste into energy products. This approach not only offers a sustainable energy solution but also addresses another pressing environmental issue: the growing amounts of waste generated daily. Singapore's only landfill, located on Semakau Island, is projected to run out of space by 2035.
 
 ## References
