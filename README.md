@@ -1,4 +1,4 @@
-# SQL-Project
+# Analysis of Singapore's Energy Consumption Performance in SQL
 
 ## Objective
 In this project, our goal was to answer the following 2 questions:
